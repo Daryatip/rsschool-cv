@@ -1,13 +1,16 @@
 # My CV
 
 Name: Darya
+
 Skills:
 
 - HTML
 - CSS
+
 # Darya Yukhno
 
 ## Contacts
+
 - Email: dashahno05@mail.ru
 - Phone / Telegram / WhatsApp: +48 797 774 366
 - GitHub: https://github.com/Daryatip
@@ -16,6 +19,7 @@ Skills:
 ---
 
 ## About Me
+
 I am 24 years old and originally from Belarus. For the past 5 years, I have been living in Poland.
 
 I graduated from WSB University in Wrocław (Higher Banking School) with a Bachelor's degree in Computer Graphics in Advertising. I also have work experience in a printing house, where I worked in the Design Department.
@@ -27,6 +31,7 @@ For me, programming is like creating my own small world — a separate universe 
 ---
 
 ## Skills
+
 - HTML
 - CSS
 - Git, GitHub
@@ -38,7 +43,9 @@ For me, programming is like creating my own small world — a separate universe 
 ---
 
 ## Code Example
+
 ```javascript
 function hello() {
   console.log("Hello, world!");
 }
+```

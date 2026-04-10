@@ -933,7 +933,7 @@ a {
     grid-template-columns: repeat(1, 1fr);
   }
   .container-section-card {
-    padding-inline: 25px;
+    padding-inline: 35px;
   }
   .footer-container-image {
     width: 364px;

@@ -66,13 +66,6 @@ p:where(:not([class]):not(:last-child)) {
   margin-bottom: var(--paragraphMarginBottom);
 }
 
-img,
-video {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 input,
 textarea,
 select,
@@ -81,7 +74,8 @@ button {
 }
 
 html {
-  height: 100%;
+  width: auto;
+  height: auto;
   scrollbar-gutter: stable;
   scroll-behavior: smooth;
 }
@@ -250,14 +244,17 @@ a {
 .main-content {
   display: grid;
   position: relative;
+  overflow: hidden;
+    width: 1440px;
+  height: 668px;
 }
 .main-content-image,
 .main-content-text {
   grid-area: 1 / 1;
 }
 .main-content-image {
-  width: 100%;
-  height: auto;
+  width: 1440px ;
+  height: 668px ;
   display: block;
   border-radius: var(--border-radius);
 }
@@ -267,7 +264,7 @@ a {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: min(100% - 32px, 500px);
+ 
   margin: auto;
   padding-top: 30px;
 }
@@ -342,8 +339,7 @@ a {
 .container-section-image img {
   max-width: 638px;
   overflow: hidden;
-  width: 100%;
-  height: auto;
+  
   border-radius: var(--border-radius);
 }
 
@@ -399,7 +395,7 @@ a {
   overflow: hidden;
   scroll-behavior: smooth;
   scrollbar-width: none;
-  width: 100%;
+
 }
 
 .slider-dots {
@@ -502,7 +498,7 @@ a {
   color: var(--color-light);
   font-family: var(--font-family-accent);
   font-size: var(--font-size-medium);
-  line-height: 100%;
+  
   padding-top: 60px;
 }
 .card-text {
@@ -541,7 +537,7 @@ a {
 
   column-gap: 8px;
   max-width: var(--container-width-section);
-  width: 100%;
+ 
 }
 .image-card-text {
   position: relative;
@@ -657,7 +653,7 @@ a {
   right: 0;
   bottom: 0;
   height: 700px;
-  background: url("./images/snow3.png") center / 100% auto no-repeat;
+  background: url("./images/snow3.png") center / auto no-repeat;
   pointer-events: none;
 }
 .main-time {

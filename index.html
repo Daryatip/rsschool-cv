@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Christmas Shop</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/Vector.svg" />
   </head>
   <body>
     <header class="header">
@@ -17,10 +18,14 @@
             width="21"
             height="24"
             loading="lazy"
-          >
+          />
           <span class="text-logo">the gifts</span>
         </a>
       </div>
+      <button class="burger-button" type="button" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
       <nav class="header-menu">
         <ul class="header-menu-list">
           <li class="header-menu-item">
@@ -48,7 +53,7 @@
             width="1440"
             height="524"
             loading="lazy"
-          >
+          />
           <div class="main-content-text">
             <p class="main-content-description wrapper">Merry Christmas</p>
             <h1 class="main-content-title">
@@ -66,19 +71,19 @@
       <section class="img" id="about">
         <h2 class="visibility-hidden">000</h2>
         <div class="container container-section">
-          <section class="main-content-section">
+          <section class="main-content-section-text">
             <p class="main-content-styledtxt">About</p>
             <h2 class="main-content-title card-text1">
-              Unleash your inner<br>
+              Unleash your inner<br />
               superhero!
             </h2>
             <p class="main-content-paragraph">
-              This New Year marks the beginning of your journey <br>to inner
-              harmony and new strengths. We offer<br>
+              This New Year marks the beginning of your journey <br />to inner
+              harmony and new strengths. We offer<br />
               unique gifts that will help you improve your life.
             </p>
           </section>
-          <div class="container-section-image">
+          <div class="container-section-image santa">
             <img
               class="main-content-image-santa"
               src="./images/santa.jpg"
@@ -86,7 +91,7 @@
               width="638"
               height="528"
               loading="lazy"
-            >
+            />
           </div>
         </div>
       </section>
@@ -108,7 +113,7 @@
                 width="200"
                 height="200"
                 loading="lazy"
-              >
+              />
               <h2 class="family-text">create</h2>
               <img
                 class="family-image"
@@ -117,7 +122,7 @@
                 width="200"
                 height="200"
                 loading="lazy"
-              >
+              />
               <h2 class="family-text">Love</h2>
               <img
                 class="family-image"
@@ -126,7 +131,7 @@
                 width="200"
                 height="200"
                 loading="lazy"
-              >
+              />
               <h2 class="family-text">dream</h2>
               <img
                 class="family-image"
@@ -135,7 +140,7 @@
                 width="200"
                 height="200"
                 loading="lazy"
-              >
+              />
             </div>
             <div class="slider-dots">
               <button class="slider-btn prev"></button>
@@ -145,27 +150,30 @@
         </div>
       </section>
       <section class="img" id="best">
-        <div class="container-image-card bloc">
+        <div class="container-image-card">
           <div class="container-section-card">
-            <div class="create-content-text">
+            <div class="create-content-text wrapper-card">
               <p class="main-content-card">Best Gifts</p>
               <h2 class="main-content-title card-text">especially for you</h2>
             </div>
 
-            <div class="image-card">
-              <img
-                class="image-card-section"
-                src="./card/11.jpg"
-                alt="gift"
-                width="310"
-                height="342"
-              >
-              <div class="image-card-text">
-                <div class="card-text-position">
-                  <p class="image-card-description color-card1">For work</p>
-                  <a class="image-card-title" href="#">Console.log Guru</a>
+            <div class="image-card-grid">
+              <div class="image-card">
+                <img
+                  class="image-card-section"
+                  src="./card/11.jpg"
+                  alt="gift"
+                  width="310"
+                  height="342"
+                />
+                <div class="image-card-text">
+                  <div class="card-text-position">
+                    <p class="image-card-description color-card1">For work</p>
+                    <a class="image-card-title" href="#">Console.log Guru</a>
+                  </div>
                 </div>
               </div>
+
               <div class="image-card">
                 <img
                   class="image-card-section"
@@ -173,45 +181,47 @@
                   alt="gift"
                   width="310"
                   height="342"
-                >
+                />
                 <div class="image-card-text">
                   <div class="card-text-position">
                     <p class="image-card-description color-card2">For health</p>
-                    <a class="image-card-title" href="#">Hydration Bot </a>
+                    <a class="image-card-title" href="#">Hydration Bot</a>
                   </div>
                 </div>
-                <div class="image-card">
-                  <img
-                    class="image-card-section"
-                    src="./card/11.jpg"
-                    alt="gift"
-                    width="310"
-                    height="342"
-                  >
-                  <div class="image-card-text">
-                    <div class="card-text-position">
-                      <p class="image-card-description color-card3">For work</p>
-                      <a class="image-card-title" href="#">Merge Master</a>
-                    </div>
+              </div>
+
+              <div class="image-card">
+                <img
+                  class="image-card-section"
+                  src="./card/11.jpg"
+                  alt="gift"
+                  width="310"
+                  height="342"
+                />
+                <div class="image-card-text">
+                  <div class="card-text-position">
+                    <p class="image-card-description color-card3">For work</p>
+                    <a class="image-card-title" href="#">Merge Master</a>
                   </div>
-                  <div class="image-card">
-                    <img
-                      class="image-card-section"
-                      src="./card/33.jpg"
-                      alt="gift"
-                      width="310"
-                      height="342"
+                </div>
+              </div>
+
+              <div class="image-card">
+                <img
+                  class="image-card-section"
+                  src="./card/33.jpg"
+                  alt="gift"
+                  width="310"
+                  height="342"
+                />
+                <div class="image-card-text">
+                  <div class="card-text-position">
+                    <p class="image-card-description color-card4">
+                      For harmony
+                    </p>
+                    <a class="image-card-title upgrade-wrapper" href="#"
+                      >Spontaneous Coding Philosopher</a
                     >
-                    <div class="image-card-text">
-                      <div class="card-text-position position-card">
-                        <p class="image-card-description color-card4">
-                          For harmony
-                        </p>
-                        <a class="image-card-title" href="#"
-                          >Spontaneous Coding <br>Philosopher</a
-                        >
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -221,25 +231,23 @@
       </section>
 
       <section class="img5">
-        <div class="main-content">
+        <div class="main-content santa">
           <img
-            class="main-content-image"
+            class="main-content-image santa"
             src="./images/section"
             alt="Christmas ball"
             width="1440"
             height="668"
             loading="lazy"
-          >
-          <div class="main-content-text main-time">
+          />
+          <div class="main-content-text ball-container">
             <h2 class="main-content-title version-of">
-              Ready to start your<br>journey to a better<br>version of
-              yourself?
+              <span> Ready to start your</span>
+              <span>journey to a better</span>
+              <span>version of yourself?</span>
             </h2>
 
-            <a
-              class="button button-time version-button"
-              href="./gifts/index.html"
-            >
+            <a class="button version-button" href="./gifts/index.html">
               Explore Magical Gifts
             </a>
             <p class="main-content-description text-time">
@@ -277,7 +285,7 @@
             loading="lazy"
             width="80"
             height="80"
-          >
+          />
           <a class="footer-a" href="tel:+375291112233">+375 (29) 111-22-33</a>
           <p class="footer-text">Call Us</p>
         </div>
@@ -289,7 +297,7 @@
             loading="lazy"
             width="80"
             height="80"
-          >
+          />
           <a class="footer-a" href="/">Magic forest</a>
           <p class="footer-text">meet us</p>
         </div>
@@ -301,7 +309,7 @@
             loading="lazy"
             width="80"
             height="80"
-          >
+          />
           <a class="footer-a" href="mailto:gifts@magic.com">gifts@magic.com</a>
           <p class="footer-text">write us</p>
         </div>
@@ -317,7 +325,7 @@
                 width="24"
                 height="24"
                 loading="lazy"
-              >
+              />
             </a>
             <a class="footer-icon" href="/">
               <img
@@ -327,7 +335,7 @@
                 width="24"
                 height="24"
                 loading="lazy"
-              >
+              />
             </a>
             <a class="footer-icon" href="/">
               <img
@@ -337,7 +345,7 @@
                 width="24"
                 height="24"
                 loading="lazy"
-              >
+              />
             </a>
             <a class="footer-icon" href="/">
               <img
@@ -347,7 +355,7 @@
                 width="24"
                 height="24"
                 loading="lazy"
-              >
+              />
             </a>
           </div>
           <h2 class="footer-text-p">© Copyright 2025, All Rights Reserved</h2>

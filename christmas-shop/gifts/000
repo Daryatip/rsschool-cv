@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christmas Shop</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-logo">
+        <a class="header-logo" href="../index.html">
+          <img
+            class="header-logo-image"
+            src="../images/Vector.svg"
+            alt="logo Christmas Shop"
+            width="21"
+            height="24"
+            loading="lazy"
+          />
+        </a>
+        <ul class="text-logo">
+          <li class="text-logo-item">the gifts</li>
+        </ul>
+      </div>
+      <nav class="header-menu">
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <span class="header-menu-link active">gifts</span>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="../index.html#about">about</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="../index.html#best">best </a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="#contacts">contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main container">
+      <section class="main-content">
+        <img
+          class="main-content-image"
+          src="../images/bg-garland.png"
+          alt="Christmas ball"
+          width="1440"
+          height="200"
+          loading="lazy"
+        />
+
+        <div class="main-content-text title-text-end">
+          <h1 class="main-content-title titl-text">
+            <span>Achieve health,</span>
+            <span>harmony, and</span>
+            <span>inner strength</span>
+          </h1>
+
+          <nav class="header-menu">
+            <ul class="header-menu-list gifts-list">
+              <li class="header-menu-item">
+                <a
+                  class="header-menu-link gifts-menu"
+                  href="../gifts/index.html"
+                  >All</a
+                >
+              </li>
+              <li class="header-menu-item">
+                <a class="header-menu-link gifts-menu" href="../index.html"
+                  >for work</a
+                >
+              </li>
+              <li class="header-menu-item">
+                <a class="header-menu-link gifts-menu" href="../index.html"
+                  >for health</a
+                >
+              </li>
+              <li class="header-menu-item">
+                <a class="header-menu-link gifts-menu" href="../index.html"
+                  >for harmony</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section class="duplicate" id="best">
+        <h2 class="visibility-hidden">000</h2>
+        <div class="container-image-card">
+          <div class="container-section-card bloc">
+            <div class="create-content-text"></div>
+            <div class="image-card">
+              <img
+                class="image-card-section"
+                src="../card/11.jpg"
+                alt="gift"
+                width="310"
+                height="342"
+              />
+              <div class="image-card-text">
+                <div class="card-text-position">
+                  <p class="image-card-description color-card1 card-end1">
+                    For work
+                  </p>
+                  <a class="image-card-title" href="#">Console.log Guru</a>
+                </div>
+              </div>
+              <div class="image-card">
+                <img
+                  class="image-card-section"
+                  src="../card/22.jpg"
+                  alt="gift"
+                  width="310"
+                  height="342"
+                />
+                <div class="image-card-text">
+                  <div class="card-text-position">
+                    <p class="image-card-description color-card2 card-end2">
+                      For health
+                    </p>
+                    <a class="image-card-title" href="#">Step Master </a>
+                  </div>
+                </div>
+                <div class="image-card">
+                  <img
+                    class="image-card-section"
+                    src="../card/11.jpg"
+                    alt="gift"
+                    width="310"
+                    height="342"
+                  />
+                  <div class="image-card-text">
+                    <div class="card-text-position">
+                      <p class="image-card-description color-card3 card-end1">
+                        For work
+                      </p>
+                      <a class="image-card-title" href="#">Bug Magnet</a>
+                    </div>
+                  </div>
+                  <div class="image-card">
+                    <img
+                      class="image-card-section"
+                      src="../card/11.jpg"
+                      alt="gift"
+                      width="310"
+                      height="342"
+                    />
+                    <div class="image-card-text">
+                      <div class="card-text-position position-card1">
+                        <p class="image-card-description color-card4 card-end4">
+                          For work
+                        </p>
+                        <a class="image-card-title" href="#">
+                          Shortcut Cheater
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-image-card">
+          <div class="container-section-card bloc">
+            <div class="create-content-text"></div>
+            <div class="image-card">
+              <img
+                class="image-card-section"
+                src="../card/22.jpg"
+                alt="gift"
+                width="310"
+                height="342"
+              />
+              <div class="image-card-text">
+                <div class="card-text-position">
+                  <p class="image-card-description color-card1 card-end2">
+                    For health
+                  </p>
+                  <a class="image-card-title" href="#">Posture Levitation</a>
+                </div>
+              </div>
+              <div class="image-card">
+                <img
+                  class="image-card-section"
+                  src="../card/33.jpg"
+                  alt="gift"
+                  width="310"
+                  height="342"
+                />
+                <div class="image-card-text">
+                  <div class="card-text-position">
+                    <p class="image-card-description color-card2 card-end4">
+                      For harmony
+                    </p>
+                    <a class="image-card-title" href="#"
+                      >Bug Acceptance Guru
+                    </a>
+                  </div>
+                </div>
+                <div class="image-card">
+                  <img
+                    class="image-card-section"
+                    src="../card/22.jpg"
+                    alt="gift"
+                    width="310"
+                    height="342"
+                  />
+                  <div class="image-card-text">
+                    <div class="card-text-position">
+                      <p class="image-card-description color-card3 card-end2">
+                        For health
+                      </p>
+                      <a class="image-card-title" href="#">Snack Resister</a>
+                    </div>
+                  </div>
+                  <div class="image-card">
+                    <img
+                      class="image-card-section"
+                      src="../card/33.jpg"
+                      alt="gift"
+                      width="310"
+                      height="342"
+                    />
+                    <div class="image-card-text">
+                      <div class="card-text-position position-card">
+                        <p class="image-card-description color-card4 card-end4">
+                          For harmony
+                        </p>
+                        <a class="image-card-title" href="#">Error Laugher</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-end">
+          <div class="container-image-card">
+            <div class="container-section-card bloc">
+              <div class="create-content-text"></div>
+              <div class="image-card">
+                <img
+                  class="image-card-section"
+                  src="../card/22.jpg"
+                  alt="gift"
+                  width="310"
+                  height="342"
+                />
+                <div class="image-card-text">
+                  <div class="card-text-position">
+                    <p class="image-card-description color-card1 card-end2">
+                      For health
+                    </p>
+                    <a class="image-card-title" href="#">Hydration Bot</a>
+                  </div>
+                </div>
+                <div class="image-card">
+                  <img
+                    class="image-card-section"
+                    src="../card/11.jpg"
+                    alt="gift"
+                    width="310"
+                    height="342"
+                  />
+                  <div class="image-card-text">
+                    <div class="card-text-position">
+                      <p class="image-card-description color-card2 card-end1">
+                        For work
+                      </p>
+                      <a class="image-card-title" href="#">Merge Master</a>
+                    </div>
+                  </div>
+                  <div class="image-card">
+                    <img
+                      class="image-card-section"
+                      src="../card/33.jpg"
+                      alt="gift"
+                      width="310"
+                      height="342"
+                    />
+                    <div class="image-card-text">
+                      <div class="card-text-position">
+                        <p class="image-card-description color-card3 card-end4">
+                          For harmony
+                        </p>
+                        <a class="image-card-title" href="#">Joy Charger</a>
+                      </div>
+                    </div>
+                    <div class="image-card">
+                      <img
+                        class="image-card-section"
+                        src="../card/33.jpg"
+                        alt="gift"
+                        width="310"
+                        height="342"
+                      />
+                      <div class="image-card-text">
+                        <div class="card-text-position position-card card-end4">
+                          <p class="image-card-description color-card4">
+                            For harmony
+                          </p>
+                          <a class="image-card-title" href="#"
+                            >Spontaneous Coding <br />Philosopher</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="container-footer">
+        <div class="footer-container-image">
+          <img
+            class="footer-image"
+            src="../images/santa-claus.svg"
+            alt="santa-claus"
+            loading="lazy"
+            width="80"
+            height="80"
+          />
+          <a class="footer-a" href="tel:+375291112233">+375 (29) 111-22-33</a>
+          <p class="footer-text">Call Us</p>
+        </div>
+        <div class="footer-container-image">
+          <img
+            class="footer-image"
+            src="../images/christmas-tree.svg"
+            alt="santa-claus"
+            loading="lazy"
+            width="80"
+            height="80"
+          />
+          <a class="footer-a" href="/">Magic forest</a>
+          <p class="footer-text">meet us</p>
+        </div>
+        <div class="footer-container-image">
+          <img
+            class="footer-image"
+            src="../images/snake.svg"
+            alt="santa-claus"
+            loading="lazy"
+            width="80"
+            height="80"
+          />
+          <a class="footer-a" href="mailto:gifts@magic.com">gifts@magic.com</a>
+          <p class="footer-text">write us</p>
+        </div>
+      </div>
+      <div class="footer-end">
+        <div class="end-icon">
+          <div class="container-icon">
+            <a class="footer-icon" href="/">
+              <img
+                class="footer-icon"
+                src="../images/telegram.svg"
+                alt="telegram"
+                width="24"
+                height="24"
+                loading="lazy"
+              />
+            </a>
+            <a class="footer-icon" href="/">
+              <img
+                class="footer-icon"
+                src="../images/facebook.svg"
+                alt="facebook"
+                width="24"
+                height="24"
+                loading="lazy"
+              />
+            </a>
+            <a class="footer-icon" href="/">
+              <img
+                class="footer-icon"
+                src="../images/instagram.svg"
+                alt="instagram"
+                width="24"
+                height="24"
+                loading="lazy"
+              />
+            </a>
+            <a class="footer-icon" href="/">
+              <img
+                class="footer-icon"
+                src="../images/X.svg"
+                alt="X"
+                width="24"
+                height="24"
+                loading="lazy"
+              />
+            </a>
+          </div>
+          <h2 class="footer-text-p">© Copyright 2025, All Rights Reserved</h2>
+          <a class="text-decoration" href="https://rs.school/" target="_blank">
+            Made in Rolling Scopes School
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
